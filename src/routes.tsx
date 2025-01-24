@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 
 const AppRouter = () => (
-  <Router>
+  <Router basename="/test-deploy-reactjs">
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
